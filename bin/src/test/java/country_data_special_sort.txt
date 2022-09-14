@@ -1,0 +1,1 @@
+UPDATE slu_country_data SET special_sort = 1 WHERE country_code = 'MY';

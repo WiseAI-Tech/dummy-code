@@ -1,0 +1,15 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.project
+.classpath
+.apt_generated
+.factorypath
+.settings
+.springBeans
+.sts4-cache
+**/.DS_Store

@@ -1,0 +1,10 @@
+general:
+  type: dev
+  debug-log: true
+  log-file-base-name: universal_dev
+  allow-pwa: false
+  pwa-version: 1
+host:
+  main-url: http://localhost:8080
+scheduler:
+  allow-sample-scheduler-job: false

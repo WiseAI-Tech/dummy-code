@@ -1,0 +1,3 @@
+SELECT 'UPDATE role_access SET menu_access_dstr=''' || menu_access_dstr || ''', page_access_dstr=''' || page_access_dstr || ''', api_access_dstr=''' || api_access_dstr || ''', action_access_dstr=''' || action_access_dstr || ''' WHERE id=' || id || ';' AS update_row FROM role_access ORDER BY id ASC;
+
+SELECT 'INSERT INTO role_access (id,account_type,role_name,menu_access_dstr,page_access_dstr,api_access_dstr,action_access_dstr,role_status) VALUES (' || id || ',' || account_type || ',''' || role_name || ''',''' || menu_access_dstr || ''',''' || page_access_dstr || ''',''' || api_access_dstr || ''',''' || action_access_dstr || ''',' || role_status || ');' AS update_row FROM role_access ORDER BY id ASC;
